@@ -1,2 +1,5 @@
-# fyp-gcrl-public
-Latest updates from my Final Year Project dedicated at Solving Sparse Reward Problem with Goal Conditioned Reinforcement Learning. 
+# Final Year Project: Goal Conditioned Reinforcement Learning -- Nanyang Technological Unviersity  
+Latest updates from my Final Year Project dedicated at **Solving Sparse Reward Problem with Goal Conditioned Reinforcement Learning.** that I have completed during my Bachelors Degree at time at Nanyang Technological University. This is a year long-project done under the supervision of Professor Arvind Easwaran and Dr. Arambam James Singh. The following was the research objective given:
+
+> Goal-conditioned reinforcement learning(GCRL) is a sub-field of RL where the objective is to train an agent to achieve multiple goals in an environment. The problem setting in GCRL is slightly different from a traditional RL setting where the agent only learns to maximize a long-term reward, such setting is considered to be a single goal setting. However, in GCRL with multiple goals, our aim is to develop an agent which can learn a more generalized behavior(or diverse skills) for the distribution of goals.
+
