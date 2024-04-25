@@ -31,9 +31,13 @@ This method involves designing an artificial reward function that rewards the ag
 
 ### Hindsight Experience Replay
 
-In the previous section on distance-based reward shaping, we saw a class of methods that artifically create a dense reward environment. However, these methods require magicial tools like Jack Sparrow's compass which are not available. Designing these tools is also problematic. Besides, we humans can still reach goals without such devices today. The way we do this is through intutiive strategies that are so important in learning. We start discussing these strategies by firstly talking about Hindsight Experience Replay. Hindsight Experience Replay is inspired from human decision making in cases of failures. In real life, when we encounter failure, we have the ability to reflect on the experience and understand how much we have gained? Although, we have failed in reaching the environment goal, we have at least been able to reach some state. We have at least gained some information. A great example of this could be some wonderful athletes.  
+In the previous section on distance-based reward shaping, we saw a class of methods that artifically create a dense reward environment. However, these methods require magicial tools like Jack Sparrow's compass which are not available. Designing these tools is also problematic. Besides, we humans can still reach goals without such devices today. The way we do this is through intutiive strategies that are so important in learning. We start discussing these strategies by firstly talking about Hindsight Experience Replay. Hindsight Experience Replay is inspired from human decision making in cases of failures. In real life, when we encounter failure, we have the ability to reflect on the experience and understand how much we have gained? Although, we have failed in reaching the environment goal, we have at least been able to reach some state. We have at least gained some information. A great example of this could be some wonderful athletes that have made history's best comeback. They always claim that it was during the failure that they learned a lot.
 
-https://m.youtube.com/watch?v=xqa21aY7HIk&pp=ygUVTGVhcm5pbmcgZnJvbSBmYWlsdXJl
+Michael Jordan: I've missed 9,000 shots in my career. I've lost almost 300 games. 26 times, I've been trusted to take the game wining shot and missed. I've failed over and over and over again in my life. And that is why I succeed. 
+
+There is a nice Joe Rogan podcast clip that also explains the relevance of failure in reaching goals: [https://m.youtube.com/watch?v=xqa21aY7HIk&pp=ygUVTGVhcm5pbmcgZnJvbSBmYWlsdXJl]
+
+Now coming to the agent problem. Let's consider an episode run in which an agent fails. However, despite failing the agent reaches the state.
 
 ### Exploration Maximizatoin.
 
